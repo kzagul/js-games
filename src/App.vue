@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <GridElements />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GridElements from './components/GridElements.vue'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    GridElements
+  },
+};
 </script>
 
 <style>
@@ -22,5 +22,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img {
+  max-width: 60%;
 }
 </style>
